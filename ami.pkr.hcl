@@ -1,3 +1,11 @@
+packer {
+  required_plugins {
+    amazon-ebs = {
+      version = ">= 1.0.0"
+    }
+  }
+}
+
 variable "aws_access_key" {
   default = "AKIASFIXDDWFJUFT4TGX"
 }
