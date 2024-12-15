@@ -9,7 +9,7 @@
         "secret_key": "{{user `aws_secret_key`}}",
         "ami_name": "Jenkins_Agent_ubuntu_packer_with_SSH_pub-test",
         "instance_type": "t2.micro",
-        "region": "us-east-1",
+        "region": "ap-south-1",
         "security_group_ids": "sg-02f57b238deef56c3",
         "associate_public_ip_address": "true",
         "source_ami_filter": {
