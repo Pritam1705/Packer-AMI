@@ -6,7 +6,7 @@
     {
       "type": "amazon-ebs",
       "region": "{{user `aws_region`}}",
-      "source_ami": "ami-04a81a99f5ec58529",
+      "source_ami": "ami-053b12d3152c0cc71",
       "instance_type": "t2.micro",
       "ssh_username": "ubuntu",
       "ami_name": "packer-template {{timestamp}}"
